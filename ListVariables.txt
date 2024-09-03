@@ -1,0 +1,77 @@
+static DimVar vtIdCorporacion                               (dcwCOMVAR, "T51;t1;UI;EA;l6;L6;");                                   // IdCorporacion
+static DimVar vtIdCompania                                  (dcwCOMVAR, "T57;t2;UI;EA;l6;L6;");                                   // IdCompania
+static DimVar vtNroGestion                                  (dcwCOMVAR, "T63;t3;UI;EA;l20;L20;");                                 // Nro de Gestion
+static DimVar vtIdPersona                                   (dcwCOMVAR, "T83;t4;UI;EN;l15;L15;");                                 // IdPersona
+static DimVar vtValidacion                                  (dcwCOMVAR, "T98;t5;UI;EN;l1;L1;");                                   // Validacion
+static DimVar vtOption                                      (dcwCOMVAR, "T99;t6;UI;EA;l2;L2;");                                   // Option
+static DimVar vtSelector                                    (dcwCOMVAR, "T101;t7;UI;EA;l2;L2;");                                  // Selector
+static DimVar vtEstado                                      (dcwCOMVAR, "T103;t8;UI;EA;l1;L1;");                                  // Estado
+static DimVar vtNombreRazonSocial                           (dcwCOMVAR, "T104;t9;UI;EA;l60;L60;");                                // NombreRazonSocial
+static DimVar vtTipoPersona                                 (dcwCOMVAR, "T164;t10;UI;EA;l4;L4;");                                 // TipoPersona
+static DimVar vtVWDoctoIdenti                               (dcwCOMVAR, "T168;t11;UI;EA;l1;L1;");                                 // VWDoctoIdenti
+static DimVar vtFlagBloqueo                                 (dcwCOMVAR, "T169;t12;UI;EA;l1;L1;");                                 // FlagBloqueo
+static DimVar vtDoctoDPI                                    (dcwCOMVAR, "T170;t13;UI;EA;l20;L20;");                               // DoctoDPI
+static DimVar vtDoctoCedula                                 (dcwCOMVAR, "T190;t14;UI;EA;l20;L20;");                               // DoctoCedula
+static DimVar vtDoctoPasaporte                              (dcwCOMVAR, "T210;t15;UI;EA;l20;L20;");                               // DoctoPasaporte
+static DimVar vtDoctoNIT                                    (dcwCOMVAR, "T230;t16;UI;EA;l20;L20;");                               // DoctoNIT
+static DimVar vtDoctoPartNacimiento                         (dcwCOMVAR, "T250;t17;UI;EA;l20;L20;");                               // DoctoPartNacimiento
+static DimVar vtLugarEmision                                (dcwCOMVAR, "T270;t18;UI;EA;l40;L40;");                               // LugarEmision
+static DimVar vtLugarEmisionDep                             (dcwCOMVAR, "T310;t19;UI;EN;l6;L6;");                                 // LugarEmisionDep
+static DimVar vtLugarEmisionMun                             (dcwCOMVAR, "T316;t20;UI;EN;l6;L6;");                                 // LugarEmisionMun
+static DimVar vtFechaVigenciaDPI                            (dcwCOMVAR, "T322;t21;UI;EA;l10;L10;");                               // FechaVigenciaDPI
+static DimVar vtFechaVigenciaPasa                           (dcwCOMVAR, "T332;t22;UI;EA;l10;L10;");                               // FechaVigenciaPasa
+static DimVar vtVWDireccion                                 (dcwCOMVAR, "T342;t23;UI;EA;l1;L1;");                                 // VWDireccion
+static DimVar vtDireccion1                                  (dcwCOMVAR, "T343;t24;UI;EA;l200;L200;");                             // Direccion1
+static DimVar vtDireccion2                                  (dcwCOMVAR, "T543;t25;UI;EA;l200;L200;");                             // Direccion2
+static DimVar vtDireccion3                                  (dcwCOMVAR, "T743;t26;UI;EA;l200;L200;");                             // Direccion3
+static DimVar vtDireccion4                                  (dcwCOMVAR, "T943;t27;UI;EA;l200;L200;");                             // Direccion4
+static DimVar vtPais1                                       (dcwCOMVAR, "T1143;t28;UI;EA;l15;L15;");                              // Pais1
+static DimVar vtPais2                                       (dcwCOMVAR, "T1158;t29;UI;EA;l15;L15;");                              // Pais2
+static DimVar vtPais3                                       (dcwCOMVAR, "T1173;t30;UI;EA;l15;L15;");                              // Pais3
+static DimVar vtPais4                                       (dcwCOMVAR, "T1188;t31;UI;EA;l15;L15;");                              // Pais4
+static DimVar vtDirPaisRegion1                              (dcwCOMVAR, "T1203;t32;UI;EA;l6;L6;");                                // DirPaisRegion1
+static DimVar vtDirPaisRegion2                              (dcwCOMVAR, "T1209;t33;UI;EA;l6;L6;");                                // DirPaisRegion2
+static DimVar vtDirPaisRegion3                              (dcwCOMVAR, "T1215;t34;UI;EA;l6;L6;");                                // DirPaisRegion3
+static DimVar vtDirPaisRegion4                              (dcwCOMVAR, "T1221;t35;UI;EA;l6;L6;");                                // DirPaisRegion4
+static DimVar vtVWTelefono                                  (dcwCOMVAR, "T1227;t36;UI;EA;l1;L1;");                                // VWTelefono
+static DimVar vtTelefono1                                   (dcwCOMVAR, "T1228;t37;UI;EN;l8;L8;");                                // Telefono1
+static DimVar vtTelefono2                                   (dcwCOMVAR, "T1236;t38;UI;EN;l8;L8;");                                // Telefono2
+static DimVar vtTelefono3                                   (dcwCOMVAR, "T1244;t39;UI;EN;l8;L8;");                                // Telefono3
+static DimVar vtTelefono4                                   (dcwCOMVAR, "T1252;t40;UI;EN;l8;L8;");                                // Telefono4
+static DimVar vtVWEmail                                     (dcwCOMVAR, "T1260;t41;UI;EA;l1;L1;");                                // VWEmail
+static DimVar vtEmail                                       (dcwCOMVAR, "T1261;t42;UI;EA;l60;L60;");                              // Email
+static DimVar vtVWDireccionCorrespon                        (dcwCOMVAR, "T1321;t43;UI;EA;l1;L1;");                                // VWDireccionCorrespon
+static DimVar vtDirDepRegion1                               (dcwCOMVAR, "T1322;t44;UI;EN;l6;L6;");                                // DirDepRegion1
+static DimVar vtDirDepRegion2                               (dcwCOMVAR, "T1328;t45;UI;EN;l6;L6;");                                // DirDepRegion2
+static DimVar vtDirDepRegion3                               (dcwCOMVAR, "T1334;t46;UI;EN;l6;L6;");                                // DirDepRegion3
+static DimVar vtDirDepRegion4                               (dcwCOMVAR, "T1340;t47;UI;EN;l6;L6;");                                // DirDepRegion4
+static DimVar vtDirMunRegion1                               (dcwCOMVAR, "T1346;t48;UI;EN;l6;L6;");                                // DirMunRegion1
+static DimVar vtDirMunRegion2                               (dcwCOMVAR, "T1352;t49;UI;EN;l6;L6;");                                // DirMunRegion2
+static DimVar vtDirMunRegion3                               (dcwCOMVAR, "T1358;t50;UI;EN;l6;L6;");                                // DirMunRegion3
+static DimVar vtDirMunRegion4                               (dcwCOMVAR, "T1364;t51;UI;EN;l6;L6;");                                // DirMunRegion4
+static DimVar vtDirZonaRegion1                              (dcwCOMVAR, "T1370;t52;UI;EN;l6;L6;");                                // DirZonaRegion1
+static DimVar vtDirZonaRegion2                              (dcwCOMVAR, "T1376;t53;UI;EN;l6;L6;");                                // DirZonaRegion2
+static DimVar vtDirZonaRegion3                              (dcwCOMVAR, "T1382;t54;UI;EN;l6;L6;");                                // DirZonaRegion3
+static DimVar vtDirZonaRegion4                              (dcwCOMVAR, "T1388;t55;UI;EN;l6;L6;");                                // DirZonaRegion4
+static DimVar vtDepto1                                      (dcwCOMVAR, "T1394;t56;UI;EA;l40;L40;");                              // Depto1
+static DimVar vtDepto2                                      (dcwCOMVAR, "T1434;t57;UI;EA;l40;L40;");                              // Depto2
+static DimVar vtDepto3                                      (dcwCOMVAR, "T1474;t58;UI;EA;l40;L40;");                              // Depto3
+static DimVar vtDepto4                                      (dcwCOMVAR, "T1514;t59;UI;EA;l40;L40;");                              // Depto4
+static DimVar vtZona1                                       (dcwCOMVAR, "T1554;t60;UI;EA;l40;L40;");                              // Zona1
+static DimVar vtZona2                                       (dcwCOMVAR, "T1594;t61;UI;EA;l40;L40;");                              // Zona2
+static DimVar vtZona3                                       (dcwCOMVAR, "T1634;t62;UI;EA;l40;L40;");                              // Zona3
+static DimVar vtZona4                                       (dcwCOMVAR, "T1674;t63;UI;EA;l40;L40;");                              // Zona4
+static DimVar vtCorrContrato                                (dcwCOMVAR, "T1714;t64;UI;EN;l15;L15;");                              // CorrContrato
+static DimVar vtTipoDocumento                               (dcwCOMVAR, "T1729;t65;UI;EA;l15;L15;");                              // TipoDocumento
+static DimVar vtNoIdent                                     (dcwCOMVAR, "T1744;t66;UI;EA;l20;L20;");                              // NoIdent
+static DimVar vtEstatusAutorizacion                         (dcwCOMVAR, "T1764;t67;UI;EA;l1;L1;");                                // EstatusAutorizacion
+static DimVar vtFlagLectura                                 (dcwCOMVAR, "T1765;t68;UI;EA;l1;L1;");                                // FlagLectura
+static DimVar vtFlagDoctoObli                               (dcwCOMVAR, "T1766;t69;UI;EA;l1;L1;");                                // FlagDoctoObli
+static DimVar vtNombreLecturaDPI                            (dcwCOMVAR, "T1767;t70;UI;EA;l100;L100;");                            // NombreLecturaDPI
+static DimVar vtNumProducto                                 (dcwCOMVAR, "T1867;t71;UI;EA;l30;L30;");
+static DimVar vtIdVCDIAL                                    (dcwCOMVAR, "T1897;t72;UI;EA;l10;L10;");
+static DimVar vtFechaActual                                 (dcwCOMVAR, "T1907;t73;UI;EA;l10;L10;");
+static DimVar vtHoraActual                                  (dcwCOMVAR, "T1917;t74;UI;EA;l6;L6;");
+static DimVar vtUsuario                                     (dcwCOMVAR, "T1923;t75;UI;EA;l30;L30;");
+static DimVar vtCodError                                    (dcwCOMVAR, "T1953;t76;UI;EA;l4;L4;"); // JIDELEON DP420371 20240422 Creación de boton de IVECL en pantalla de 360
+static DimVar vtMensajeError                                (dcwCOMVAR, "T1957;t77;UI;EA;l100;L100;"); // JIDELEON DP420371 20240422 Creación de boton de IVECL en pantalla de 360
